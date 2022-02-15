@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Banking!!!</h1>
+    </header>
+    <section class="top-section">
+        <div class="top-part1">
+            <h2>Deposit</h2>
+            <p>$<span id="deposit-display">00</span></p>
+        </div>
+        <div class="top-part2">
+            <h2>Withdraw</h2>
+            <p>$<span id="withdraw-display">00</span></p>
+        </div>
+        <div class="top-part3">
+            <h2>Balance</h2>
+            <p>$<span id="balance-display">1000</span></p>
+        </div>
+    </section>
+    <section class="last-section">
+        <div class="last-part1">
+            <h3>Deposit Here</h3>
+            <input id="deposit-input" type="text">
+            <br>
+            <button id="deposit-btn">Deposit</button>
+        </div>
+        <div class="last-part2">
+            <h3>Withdraw Here</h3>
+            <input id="withdraw-input" type="text">
+            <br>
+            <button id="withdraw-btn">Withdraw</button>
+        </div>
+    </section>
+    <script src="bank.js"></script>
+</body>
+
+</html>
